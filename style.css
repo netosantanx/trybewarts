@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+/* me ajuda lint */
+.header img {
+  height: 50px;
+}
+
+.header h1 {
+  font-weight: 900;
+}
+
+#login-container {
+  display: flex;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#btn {
+  border: none;
+  background-color: rgb(78, 44, 131);
+  color: white;
+}
+
+main {
+  display: flex;
+  margin-top: 20px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-flow: column wrap;
+}
+
+#input-name {
+  width: 49%;
+}
+
+#input-lastname {
+  width: 49%;
+}
+
+#mail-container {
+  margin-top: 10px;
+}
+
+#input-email {
+  width: 49%;
+}
+
+#house {
+  width: 43%;
+}
+
+#family-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#family-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#content-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 60%;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#content-options {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.three-options {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+#rating-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+}
+
+textarea {
+  height: 100px;
+}
+
+#label-infos {
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#agreement-checkbox-container {
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  width: 100%;
+  border: none;
+  background-color: rgb(78, 44, 131);
+  color: white;
+}
+
+#submit-btn:disabled {
+  opacity: 0.2;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: cyan;
+  height: 30px;
+  font-weight: 700;
+}
